@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:layout_gravity="center"
+    android:orientation="horizontal"
+    android:layout_marginLeft="50dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <Button
+        android:text="水平布局"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:text="垂直布局"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:text="靠左布局"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>
+    <Button
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="-160dp"
+        android:id="@+id/button11"
+        android:text="返回"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>
